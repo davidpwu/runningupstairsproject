@@ -1,0 +1,68 @@
+body {
+    font-family: Montserrat, sans-serif;
+    color: black;
+    background-image: url(https://source.unsplash.com/v3bWNXeInQA);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+html {
+    height: 100%;
+}
+/* .flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display:         flex;
+} */
+hr {
+	width: 50%;
+	height: 1px;
+	border-bottom: 1px rgba(255,255,255,0.4) solid;
+	border-left: 1px rgba(128,128,128,0.4) solid;
+	border-right: 1px rgba(128,128,128,0.4) solid;
+    border-top: 1px rgba(0,0,0,0.4) solid;
+}
+h1 {
+    text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.1);
+}
+h1 {
+	margin-top: 1%;
+}
+h2, p {
+
+    text-align: center;
+	color: black;
+}
+table {
+	width: 96%;
+    border-collapse: collapse; 
+	margin: 0 2% 2% 2%;
+	min-width: 700px;
+}
+#days {
+    color: black;
+	text-align: center;
+	font-size: 1.5vw;
+	font-size: calc(14px + 0.2vw);
+}
+table tr:not(#days) td {
+    color: black;
+    border: 1px black solid;
+	text-align: center;
+	margin: 0;
+	width: 14%;
+	padding-bottom: 11.85%;
+}
+table tr:not(#days) td:not(.otherMonth) {
+	/* background-color: lightgray; */
+	background-color: rgba(211,211,211,0.5);
+}
+.otherMonth {
+    background-color: rgba(0,0,0,0);
+}
+.alignedImage {
+    background-size: cover;
+    background-position: center;
+}
