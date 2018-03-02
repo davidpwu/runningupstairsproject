@@ -66,3 +66,6 @@ table tr:not(#days) td:not(.otherMonth) {
     background-size: cover;
     background-position: center;
 }
+.alignedImage > a {
+	color: white;
+}
